@@ -1,5 +1,15 @@
 import { Card, CardImg, CardText, CardBody, CardTitle } from "reactstrap";
 
+/*// Component did mount ...
+componentDidMount() {
+    console.log('DishdetailComponent componentDidMount invoked.');
+}
+
+// Component did update  ...
+componentDidUpdate() {
+    console.log('DishdetailComponent componentDidUpdate invoked.');
+}*/
+
 // function RenderDish(props) ...
 function RenderDish({dish}) {
     if (dish != null) {
