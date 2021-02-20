@@ -7,7 +7,7 @@ function RenderDish({dish}) {
   if (dish != null) {
 
     return (
-      <div className="col-12 col-md-5 m-1">
+      <div>
         <Card>
           <CardImg width="100%" src={dish.image} alt={dish.name} />
           <CardBody>
@@ -55,7 +55,7 @@ function RenderComments({comments}) {
     });
 
     return (
-      <div className="col-12 col-md-5 m-1 mt-3">
+      <div>
         <h4> Comments </h4>
         {cmnts}
       </div>
